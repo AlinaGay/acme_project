@@ -20,4 +20,4 @@ def birthday(request):
 def birthday_list(request):
     birthdays = Birthday.objects.all()
     context = {'birthdays': birthdays}
-    return render(request, 'birthday/birthday_list.html', context) 
+    return render(request, 'birthday/birthday_list.html', context)
